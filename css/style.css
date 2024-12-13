@@ -457,8 +457,7 @@ footer .navbar-brand {
     color: #fff;
 }
 
-footer p {
-    color: #ADB3B9;
+footer p {    color: #ADB3B9;
 }
 
 footer .social-icons a {
@@ -495,4 +494,34 @@ input.form-control {
 .form-control:focus {
     box-shadow: none;
     border-color: var(--brand);
+}
+
+/* Founder Section Styles */
+#founder {
+    background-color: #f9f9f9; /* Light gray background for distinction */
+}
+
+/* Help Section Styles */
+#help {
+    background-color: #e9f4f7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#help .help-box {
+    background-color: #fff;
+    padding: 32px;
+    box-shadow: var(--shadow);
+    text-align: center;
+    border-radius: 8px;
+}
+
+#help .help-box i {
+    color: var(--brand);
+    font-size: 4rem;
+    margin-bottom: 16px;
+}
+
+#help .help-box h5 {
+    margin-bottom: 12px;
 }

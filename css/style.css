@@ -528,3 +528,8 @@ input.form-control {
 .image{
     height: 356px;
 }
+@media screen {
+    .navbar-brand{
+        font-size: 20px;
+    }
+}
